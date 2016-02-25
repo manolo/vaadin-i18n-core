@@ -1,0 +1,29 @@
+{
+  "name": "vaadin-i18n-core",
+  "version": "1.0.0-alpha1",
+  "authors": [
+    "Vaadin Ltd"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "Vaadin"
+  ],
+  "main": "vaadin-i18n-core.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manolo/vaadin-i18n-core"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "moment": "^2.11.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.1.0",
+    "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0",
+    "iron-component-page": "polymerelements/iron-component-page#~1.1.0",
+    "vaadin-date-picker": "vaadin/vaadin-date-picker#feature/object-i18n"
+  }
+}
