@@ -1,0 +1,29 @@
+---
+title: Overview
+order: 1
+layout: page
+---
+
+[[vaadin-date-picker.overview]]
+= Overview
+
+The [elementname]#vaadin-i18n-core# element allows the user internationalise
+all the vaadin elements used in the UI at once.
+
+It listen for vaadin elements being registered, then it internatianalises all the
+properties present in the element.i18n object.
+
+= Usage
+
+Just add the [elementname]#vaadin-i18n-core# tag to your page and all vaadin
+elements will be internationalised.
+Changing the `locale` property of the [elementname]#vaadin-i18n-core#,
+all vaadin components in the page will be updated. If you want to override
+the global locale, add the property to the specific element.
+
+[source,html]
+----
+  <vaadin-i18n-core locale="es"></vaadin-i18n-core>
+  <vaadin-date-picker label="Cumpleaños" value="2000-03-01T00:00:00"></vaadin-date-picker>
+  <vaadin-date-picker label="Syntymäpäivä" locale="fi" value="2000-03-01T00:00:00"></vaadin-date-picker>
+----
